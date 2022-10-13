@@ -1,0 +1,27 @@
+.profileDetail {
+  display: flex;
+  width: 74%;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.profileDetail span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.profileSection {
+  font-size: 16px;
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ebebeb;
+  padding: 7px;
+}
+.profileSection p {
+  font-size: 17px;
+  letter-spacing: 1px;
+}

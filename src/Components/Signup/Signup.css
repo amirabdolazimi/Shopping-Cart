@@ -1,0 +1,57 @@
+label {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input + label {
+  font-weight: bold;
+  margin-right: 20px;
+  display: inline-flex;
+  margin-left: 5px;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #6d28d9 !important;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 400px;
+  padding: 6px 12px;
+  display: block;
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 5px 15px;
+}
+.error {
+  color: red;
+}
+.formContainer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.formContainer button {
+  width: 100%;
+  margin-top: 30px;
+}
+.signupLink {
+  margin-top: 20px;
+  display: inline-block;
+}
+.errorMessage {
+  color: red;
+  margin-top: 5px;
+}
+.successMessage {
+  color: rgb(35, 169, 35);
+  margin-top: 5px;
+  font-size: 17px;
+}

@@ -1,0 +1,14 @@
+Welcome to my project
+~~~
+i used a API to GET,DELETE,POST,PUT data in this Shop project.
+but to do these processes you have to turn on your VPN.
+~~~
+this is a mini Shop project that was developed by these :
+ReactJS
+React-router-dom
+axios
+formik
+~~~
+#Packages : 
+Yup
+React-toastify

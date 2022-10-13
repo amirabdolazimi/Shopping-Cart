@@ -1,0 +1,22 @@
+.formContainer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.formContainer button {
+  width: 100%;
+  margin-top: 30px;
+}
+.loginLink {
+  margin-top: 20px;
+  display: inline-block;
+}
+.errorMessage {
+  color: red;
+  margin-top: 5px;
+}
+.successMessage {
+  color: rgb(35, 169, 35);
+  margin-top: 5px;
+  font-size: 17px;
+}
